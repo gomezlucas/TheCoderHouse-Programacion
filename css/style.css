@@ -1,0 +1,75 @@
+body{
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6975e318;
+}
+h1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #161a47;
+}
+
+p{
+    margin-top: 0;
+    font-size: 11px;
+    color: #747794;
+}
+
+.logo{
+    width: 30%;
+    padding: 5px;
+}
+
+
+.logo img{
+    width: 100%;
+}
+
+
+.container_desafio{
+margin: 2%  3% 5% 2%; 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.desafio{
+    padding: 2% 1% 2% 2%;
+     min-width: 435px;
+    margin-bottom: 5%;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    background-color: #ffffff;
+ }
+
+ .myButton{
+     text-align: center;
+     margin-top: 8%;
+ }
+.myButtonStyle {
+	background-color:#8754e7;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #8754e7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Lato, sans-serif;
+	font-size:15px;
+	padding:11px 38px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #804ae2;
+ }
+
+.myButtonStyle:hover {
+   background: linear-gradient(135deg,#6976e3 0,#8754e7 100%);
+}
+
+.myButtonStyle:active {
+	position:relative;
+	top:1px;
+}
+
+ 
