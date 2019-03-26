@@ -18,7 +18,7 @@ var result = includesText(word1, word2);
 console.log(result);
 
 if (result === true) {
-    alert("Se encuentra incluido")
+    alert("Se encuentra incluido");
 } else {
-    alert("No se encuentra incluido)
+    alert("No se encuentra incluido");
 }
