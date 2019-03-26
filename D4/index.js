@@ -14,21 +14,22 @@ function eliminarDiacriticosEs(texto) {
 
 function buscarAlumnos(par1, par2, studentsList) {
     for (var i = 0; i < studentsList.length; i++) {
- 
+
         if ((eliminarDiacriticosEs(par1).toLowerCase() ===
             eliminarDiacriticosEs(studentsList[i].firstName).toLowerCase())
             &&
             (eliminarDiacriticosEs(par2).toLowerCase() ===
-            eliminarDiacriticosEs(studentsList[i].lastName).toLowerCase() ) ) {
-            salida = i;
-            i = studentsList.lenght;
-            
+                eliminarDiacriticosEs(studentsList[i].lastName).toLowerCase())) {
+            alumno = i;
+            //           i = studentsList.lenght;
+            break;
+
         } else {
             console.log(i);
-            salida = -1
+            alumno = -1
         }
     }
-    return salida;
+    return alumno;
 }
 
 var studentsList = [
@@ -57,7 +58,7 @@ var studentsList = [
 name = prompt("Ingrese nombre del estudiante");
 lastName = prompt("Ingrese apellido del estudiante");
 
-buscarAlumnos(name, lastName, studentsList);
+var salida = buscarAlumnos(name, lastName, studentsList);
 
 if (salida >= 0) {
     alert("Alumno   " + studentsList[salida].firstName + " " + studentsList[salida].lastName + " fue encontrado en la posicion " + salida);
