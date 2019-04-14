@@ -36,6 +36,7 @@ justify-content: space-around;
 
 .desafio{
     padding: 2% 1% 2% 2%;
+     max-width: 435px;
      min-width: 435px;
     margin-bottom: 5%;
     border: 1px solid lightgrey;
