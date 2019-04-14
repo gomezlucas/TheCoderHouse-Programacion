@@ -1,0 +1,19 @@
+.studentsItem{
+    list-style: none;
+}
+
+
+.searchedStudentsDisplay{
+ background-color: red;   
+ width: 100%;
+ height: 100%;
+}
+
+.showObject{
+    display: inline-block;
+}
+
+
+.hideObject{
+    display: none;
+}
