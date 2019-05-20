@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel='stylesheet', href='css/styles.css')
+    title Star Wars -- Species
+  body 
+    nav.navbar.navbar-expand-lg.navbar-dark.navBar__local
+      a.navbar-brand(href='#')
+        img(src='/images/logo.jpeg', alt='')
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link(href='/') Main Characters 
+          li.nav-item.active
+            a.nav-link(href='Species') Species
+            span.sr-only(current)
+          li.nav-item
+            a.nav-link(href='Planets') Planets
+          li.nav-item
+            a.nav-link(href='Contact') Contact  
+    div.container
+            table.table.table-dark.table-hover.text-center.table-bordered 
+                thead
+                    th(scope='col') #
+                    th(scope='col') Nombre
+                    th(scope='col') Clasificación
+                    th(scope='col') Tipo (M)
+                    th(scope='col') Promedio de vida (Años)
+                    th(scope='col') Idioma 
+                tbody#tableBody 
+script(src='https://code.jquery.com/jquery-3.4.0.min.js')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+script(src="js/indexSpecies.js")
+
+ 
