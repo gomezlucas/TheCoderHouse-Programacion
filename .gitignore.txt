@@ -1,2 +1,0 @@
-Workshop 2/node_modules
-images
